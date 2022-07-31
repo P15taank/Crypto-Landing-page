@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+body {
+  overflow: hidden;
+}
+/* background image class */
+.hero {
+  background-image: url(./assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+/* navigation class */
+.navbar {
+  position: relative;
+  top: 0px;
+  height: 80px;
+  background-color: #000000;
+}
+/* class for logo */
+.navbar div img {
+  height: 30px;
+  position: absolute;
+  top: 25px;
+  left: 60px;
+}
+/* class for list  in navbar */
+.grow-list {
+  position: absolute;
+  top: 15px;
+  left: 230px;
+  color: #ffffff;
+}
+/* class for targeeting list items in navbar */
+.list-item {
+  font-size: 15px;
+  display: inline-block;
+  font-weight: bold;
+  padding: 20px;
+}
+/* draw a line */
+.line {
+  position: relative;
+  top: 15px;
+  left: 195px;
+  border-left: 2px solid #ffffff;
+  height: 50px;
+}
+/* classes for navbar button on right */
+
+.button-small {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  background-color: #d409f8;
+  border-radius: 7px;
+  border-style: none;
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+/* injecting arrow besided APPs*/
+.arrow {
+  position: absolute;
+  top: 38px;
+  left: 300px;
+  color: #ffffff;
+}
+
+.hero-heading {
+  position: absolute;
+  top: 268px;
+  left: 291px;
+  color: #ffffff;
+  /* font-weight: 1000; */
+  /* height: 500px; */
+  width: 900px;
+  font-size: 73px;
+  text-align: center;
+  line-height: 1;
+}
+
+.hero-description {
+  position: absolute;
+  top: 430px;
+  left: 500px;
+  width: 500px;
+  text-align: center;
+  font-size: 24px;
+  color: #bfbaba;
+}
+
+.button-large {
+  position: absolute;
+  top: 500px;
+  left: 650px;
+  background-color: #d409f8;
+  border-radius: 7px;
+  border-style: none;
+  height: 45px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+}
